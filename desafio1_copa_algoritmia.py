@@ -1,8 +1,10 @@
-#Generar un conjunto de datos simulando los eventos de pases entre jugadoras de Argentina y Australia de hockey
+# Generar un conjunto de datos simulando los eventos de pases entre jugadoras de Argentina y Australia de hockey
 
-contador = 0
+# MODULOS
 import random 
 
+# PROGRAMA PRINCIPAL
+contador = 0
 jugadores = [
     ("Argentina", "Agustina Gorzelany", 11),
     ("Argentina", "Maria Jose Granatto", 9),
@@ -24,18 +26,17 @@ jugadores = [
     ("Australia", "Mariah Williams", 9)
     ]
 
-while contador != 10: 
+while contador < 5: 
     print(f'----------EJEMPLO N{contador}----------')
-    alguna = random.choice(jugadores)
-    print('jugadora', alguna)
+    jugadora = random.choice(jugadores)
+    print('Jugadora:', jugadora)
 
-    xd = random.randint(0, 1)
-    print('pase si o no:', xd)
+    pase = random.randint(0, 1)
+    print('Pase:', pase)
 
     minuto = random.randint(0, 60)
-    print('minuto:', minuto)
+    print('Minuto:', minuto)
     contador +=  1
     
 # CREAR TXT
-
-#f = open('pases.txt', 'x')
+# f = open('pases.txt', 'x')
