@@ -24,8 +24,10 @@ jugadores = [
     ("Australia", "Louise Dobson", "7"),
     ("Australia", "Jodie Schulz", "8"),
     ("Australia", "Mariah Williams", "9")
-    ]
+    
+#Dentro de la variable "Jugadores" colocamos el nombre de todas las jugadoras junto al pais que representan y su numero
 
+    
 while contador < 5: 
     print(f'----------EJEMPLO N{contador}----------')
     jugadora = random.choice(jugadores)
@@ -44,5 +46,8 @@ while contador < 5:
     file.write(pase)
     file.write(minuto)
     contador +=  1
+
+#Dentro del while, el contador va a controlar que las iteraciones no sean mayores a las pedidas y luego de cada valor entero se declara la variable como string
+#ya que los archivos de texto no admiten valores enteros.
     
 
