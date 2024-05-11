@@ -24,7 +24,7 @@ with open('pases_hockey.txt', 'w') as archivo:
         ("Australia", "9", "Mariah Williams")
         ]
 
-    while contador < 5: 
+    while contador < 50000: 
         evento = random.choice(jugadores)
         pais = evento[0]
         numero_jugador = evento[1]
