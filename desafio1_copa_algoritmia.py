@@ -36,7 +36,11 @@ while contador < 5:
 
     minuto = random.randint(0, 60)
     print('Minuto:', minuto)
+
+    file = open('Pases.txt', 'w')
+    file.write(jugadora)
+    file.write(pase)
+    file.write(minuto)
     contador +=  1
     
-# CREAR TXT
-# f = open('pases.txt', 'x')
+
