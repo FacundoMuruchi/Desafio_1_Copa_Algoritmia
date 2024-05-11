@@ -6,24 +6,24 @@ import random
 # PROGRAMA PRINCIPAL
 contador = 0
 jugadores = [
-    ("Argentina", "Agustina Gorzelany", "11"),
-    ("Argentina", "Maria Jose Granatto", "9"),
-    ("Argentina", "Sofia Toccalino", "20"),
-    ("Argentina", "Agostina Alonso", "10"),
-    ("Argentina", "Valentina Raposo", "8"),
-    ("Argentina", "Clara Barberi", "5"),
-    ("Argentina", "Delfina Thome", "4"),
-    ("Argentina", "Sofia Cairo", "7"),
-    ("Argentina", "Pilar Campoy", "16"),
-    ("Australia", "Alyson Annan", "1"),
-    ("Australia", "Katrina Powell", "2"),
-    ("Australia", "Stephanie Kershaw", "3"),
-    ("Australia", "Jane Claxton", "4"),
-    ("Australia", "Claire Colwill", "5"),
-    ("Australia", "Rebecca Greiner", "6"),
-    ("Australia", "Louise Dobson", "7"),
-    ("Australia", "Jodie Schulz", "8"),
-    ("Australia", "Mariah Williams", "9")
+    ("Argentina", "11", "Agustina Gorzelany"),
+    ("Argentina", "9", "Maria Jose Granatto"),
+    ("Argentina", "20", "Sofia Toccalino"),
+    ("Argentina", "10", "Agostina Alonso"),
+    ("Argentina", "8", "Valentina Raposo"),
+    ("Argentina", "5", "Clara Barberi"),
+    ("Argentina", "4", "Delfina Thome"),
+    ("Argentina", "7", "Sofia Cairo"),
+    ("Argentina", "16", "Pilar Campoy"),
+    ("Australia", "1", "Alyson Annan"),
+    ("Australia", "2", "Katrina Powell"),
+    ("Australia", "3", "Stephanie Kershaw"),
+    ("Australia", "4", "Jane Claxton"),
+    ("Australia", "5", "Claire Colwill"),
+    ("Australia", "6", "Rebecca Greiner"),
+    ("Australia", "7", "Louise Dobson"),
+    ("Australia", "8", "Jodie Schulz"),
+    ("Australia", "9", "Mariah Williams")
     
 #Dentro de la variable "Jugadores" colocamos el nombre de todas las jugadoras junto al pais que representan y su numero
 
