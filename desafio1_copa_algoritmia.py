@@ -23,7 +23,7 @@ jugadores = [
     ("Australia", "6", "Rebecca Greiner"),
     ("Australia", "7", "Louise Dobson"),
     ("Australia", "8", "Jodie Schulz"),
-    ("Australia", "9", "Mariah Williams")
+    ("Australia", "9", "Mariah Williams")]
     
 #Dentro de la variable "Jugadores" colocamos el nombre de todas las jugadoras junto al pais que representan y su numero
 
